@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "product-trivia-form"
+    "default": "sw-booth-trivia"
+  },
+  "targets": {
+    "product-trivia-form": {
+      "hosting": {
+        "booth-form": [
+          "booth-quiz-form"
+        ]
+      }
+    }
   }
 }

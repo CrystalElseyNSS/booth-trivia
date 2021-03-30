@@ -67,7 +67,7 @@ export const QuizForm = () => {
 
     return (
         <>
-            <h1>SHERWIN-WILLIAMS Product Quiz Form</h1>
+            <h1>SHERWIN-WILLIAMS Bronze/Silver/Gold Quiz Form</h1>
             <Card className="card">
             { showForm ? 
                 <form onSubmit={(evt) => {
@@ -90,31 +90,31 @@ export const QuizForm = () => {
                     <FormGroup>
                         <p className="flex">
                             <label>Question One:</label>
-                            <input required type="text" maxLength="80" ref={qOne} name="qOne"></input>
+                            <input required type="text" maxLength="96" ref={qOne} name="qOne"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer A:</label>
-                            <input required type="text" maxLength="21" ref={qOne_aOne} name="qOne_aOne"></input>
+                            <input required type="text" maxLength="24" ref={qOne_aOne} name="qOne_aOne"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer B:</label>
-                            <input required type="text" maxLength="21" ref={qOne_aTwo} name="qOne_aTwo"></input>
+                            <input required type="text" maxLength="24" ref={qOne_aTwo} name="qOne_aTwo"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer C:</label>
-                            <input required type="text" maxLength="21" ref={qOne_aThree} name="qOne_aThree"></input>
+                            <input required type="text" maxLength="24" ref={qOne_aThree} name="qOne_aThree"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer D:</label>
-                            <input required type="text" maxLength="21" ref={qOne_aFour} name="qOne_aFour"></input>
+                            <input required type="text" maxLength="24" ref={qOne_aFour} name="qOne_aFour"></input>
                         </p>
                     </FormGroup>
                     <FormGroup className="border">
@@ -127,31 +127,31 @@ export const QuizForm = () => {
                     <FormGroup>
                         <p className="flex">
                             <label>Question Two:</label>
-                            <input required type="text" maxLength="80" ref={qTwo} name="qTwo"></input>
+                            <input required type="text" maxLength="96" ref={qTwo} name="qTwo"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer A:</label>
-                            <input required type="text" maxLength="21" ref={qTwo_aOne} name="qTwo_aOne"></input>
+                            <input required type="text" maxLength="24" ref={qTwo_aOne} name="qTwo_aOne"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer B:</label>
-                            <input required type="text" maxLength="21" ref={qTwo_aTwo} name="qTwo_aTwo"></input>
+                            <input required type="text" maxLength="24" ref={qTwo_aTwo} name="qTwo_aTwo"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer C:</label>
-                            <input required type="text" maxLength="21" ref={qTwo_aThree} name="qTwo_aThree"></input>
+                            <input required type="text" maxLength="24" ref={qTwo_aThree} name="qTwo_aThree"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer D:</label>
-                            <input required type="text" maxLength="21" ref={qTwo_aFour} name="qTwo_aFour"></input>
+                            <input required type="text" maxLength="24" ref={qTwo_aFour} name="qTwo_aFour"></input>
                         </p>
                     </FormGroup>
                     <FormGroup className="border">
@@ -164,31 +164,31 @@ export const QuizForm = () => {
                     <FormGroup>
                         <p className="flex">
                             <label>Question Three:</label>
-                            <input required type="text" maxLength="80" ref={qThree} name="qThree"></input>
+                            <input required type="text" maxLength="96" ref={qThree} name="qThree"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer A:</label>
-                            <input required type="text" maxLength="21" ref={qThree_aOne} name="qThree_aOne"></input>
+                            <input required type="text" maxLength="24" ref={qThree_aOne} name="qThree_aOne"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer B:</label>
-                            <input required type="text" maxLength="21" ref={qThree_aTwo} name="qThree_aTwo"></input>
+                            <input required type="text" maxLength="24" ref={qThree_aTwo} name="qThree_aTwo"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer C:</label>
-                            <input required type="text" maxLength="21" ref={qThree_aThree} name="qThree_aThree"></input>
+                            <input required type="text" maxLength="24" ref={qThree_aThree} name="qThree_aThree"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer D:</label>
-                            <input required type="text" maxLength="21" ref={qThree_aFour} name="qThree_aFour"></input>
+                            <input required type="text" maxLength="24" ref={qThree_aFour} name="qThree_aFour"></input>
                         </p>
                     </FormGroup>
                     <FormGroup className="border">
@@ -201,31 +201,31 @@ export const QuizForm = () => {
                     <FormGroup>
                         <p className="flex">
                             <label>Question Four:</label>
-                            <input required type="text" maxLength="80" ref={qFour} name="qFour"></input>
+                            <input required type="text" maxLength="96" ref={qFour} name="qFour"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer A:</label>
-                            <input required type="text" maxLength="21" ref={qFour_aOne} name="qFour_aOne"></input>
+                            <input required type="text" maxLength="24" ref={qFour_aOne} name="qFour_aOne"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer B:</label>
-                            <input required type="text" maxLength="21" ref={qFour_aTwo} name="qFour_aTwo"></input>
+                            <input required type="text" maxLength="24" ref={qFour_aTwo} name="qFour_aTwo"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer C:</label>
-                            <input required type="text" maxLength="21" ref={qFour_aThree} name="qFour_aThree"></input>
+                            <input required type="text" maxLength="24" ref={qFour_aThree} name="qFour_aThree"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
                         <p className="flex">
                             <label className="answer">Answer D:</label>
-                            <input required type="text" maxLength="21" ref={qFour_aFour} name="qFour_aFour"></input>
+                            <input required type="text" maxLength="24" ref={qFour_aFour} name="qFour_aFour"></input>
                         </p>
                     </FormGroup>
                     <FormGroup>
