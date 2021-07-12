@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "target": "booth-form",
     "public": "build",
+    "target": "booth-form",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -67,7 +67,7 @@ export const QuizForm = () => {
 
     return (
         <>
-            <h1>SHERWIN-WILLIAMS Bronze/Silver/Gold Quiz Form</h1>
+            <h1>Virtual Booth Trivia Form</h1>
             <Card className="card">
             { showForm ? 
                 <form onSubmit={(evt) => {
