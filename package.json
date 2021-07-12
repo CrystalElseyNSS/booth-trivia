@@ -1,0 +1,11 @@
+{
+  "name": "booth-trivia",
+  "version": "1.0.0",
+  "description": "> Customizable booth trivia created for exhibitors for a virtual conference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
